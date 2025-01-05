@@ -1,0 +1,18 @@
+star-rating {
+  display: inline-block;
+}
+
+star-rating button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.star-icon {
+  --icon-size: 32px;
+  height: var(--icon-size);
+  width: var(--icon-size);
+}
+
+.star-icon--filled {
+  fill: yellow;
+}

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/manish2788/fountain/issues"
   },
-  "homepage": "https://github.com/manish2788/fountain#readme"
+  "homepage": "https://github.com/manish2788/fountain#readme",
+  "dependencies": {
+    "bootstrap-icons": "^1.11.3"
+  }
 }

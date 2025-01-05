@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fountain</title>
+  <link href="assets/css/styles.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="components/list-view/styles.css" />
+  <link rel="stylesheet" href="components/star-rating/styles.css" />
+</head>
+<body>
+  <header>
+    <nav class="ft-menu-bar">
+      <button type="button" class="ft-menu-icon"><i class="bi bi-list"></i></button>
+      <b>Fountain</b>
+    </nav>
+  </header>
+  <div class="ft-container">
+    <div class="ft-left-nav">
+      <list-view></list-view>
+    </div>
+    <main class="ft-main-content">
+      <star-rating data-rating-scale="5"></star-rating>
+    </main>
+  </div>
+  <script src="assets/js/main.js" type="module"></script>
+</body>
+</html>

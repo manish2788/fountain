@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1em;
+}
+.ft-menu-bar {
+  background-color: #365c9f;
+  color: #fff;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.ft-menu-bar .ft-menu-icon {
+  background: transparent;
+  border: none;
+  color: inherit;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0 1%;
+}
+
+.ft-container {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  height: 100vh;
+}
+
+.ft-left-nav {
+  background-color: #e1eaf8;
+  padding: 10%;
+  font-size: 14px;
+}
+.ft-left-nav li {
+  padding: 5%;
+}
+
+.ft-left-nav li a {
+  text-decoration: none;
+  color: #212529;
+}
+
+.ft-main-content {
+  margin: 1rem;
+}
+
