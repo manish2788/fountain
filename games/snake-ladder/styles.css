@@ -1,0 +1,11 @@
+snake-ladder {
+    display: grid;
+    border: 1px solid #ccc;
+    width: 40vw;
+    height: 40vw;
+    grid-template-columns: repeat(auto-fit, 10%);
+    grid-template-rows: repeat(auto-fit, 10%);
+}
+.data-cell {
+    border: 1px solid #ccc;
+}
